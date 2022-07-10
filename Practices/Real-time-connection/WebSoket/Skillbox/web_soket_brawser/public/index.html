@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.14.3/css/uikit-core.min.css"
+        />
+        <style>
+            body {
+                padding: 20px;
+            }
+            #chat {
+                border: 1px solid #eee;
+                padding: 20px;
+                min-height: 200px;
+                max-height: 500px;
+                width: 80%;
+                max-width: 800px;
+                overflow-y: auto;
+            }
+            .name {
+                color: green;
+                font-weight: bold;
+                margin-right: 1em;
+            }
+            .message {
+                color: blue;
+            }
+        </style>
+        <title>WebSoket</title>
+    </head>
+    <body>
+        <div id="chat"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/0.5.12/MinFaker.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/web-socket-js/1.0.0/web_socket.min.js"></script>
+        <script src="/client.js"></script>
+    </body>
+</html>

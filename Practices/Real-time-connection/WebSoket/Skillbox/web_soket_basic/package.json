@@ -1,0 +1,25 @@
+{
+    "name": "web_soket",
+    "version": "1.0.0",
+    "description": "",
+    "main": "client.js",
+    "module": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "faker": "^5.5.3",
+        "ws": "^8.8.0"
+    },
+    "devDependencies": {
+        "chalk": "^5.0.1",
+        "dotenv": "^16.0.1"
+    },
+    "optionalDependencies": {
+        "bufferutil": "^4.0.6",
+        "utf-8-validate": "^5.0.9"
+    }
+}
